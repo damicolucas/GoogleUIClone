@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <!-- <link rel="stylesheet" href="assets/css/light.css" id="light" /> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" >
+    <link rel="shortcut icon" href="assets/img/fav_icon.svg" />
+    <title>Google UI Clone</title>
+</head>
+
+<body>
+    <header class='menu'>
+        <div class="menu__section left">
+            <img src="assets/img/burger-icon.svg" alt="Burguer" class="menu__icon">
+            <a href="" class="menu__link active">All</a>
+            <a href="" class="menu__link">Images</a>
+        </div>
+
+
+        <div class="menu__section right">
+
+            <img src="assets/img/more-icon.svg" alt="More" class="menu__icon">
+            <div class="menu__profile">
+                <img src="assets/img/circle-frame.svg" alt="Avatar Frame" class="menu__avatar--frame">
+                <img src="assets/img/avatar-1789663_1280.png" alt="Avatar" class="menu__avatar">
+            </div>
+        </div>
+    </header>
+    <main class="content">
+
+        <img src="assets/img/logo.svg" alt="" class="content__logo">
+
+        <div class="content__search">
+            <i class="fa fa-search"></i>
+            <input type="text" name="" id="" class="content__search--input">
+        </div>
+            
+        <div class="content__offer">
+            Made for studying purposes by <a href="https://github.com/damicolucas">LD</a> based on <a href="https://youtu.be/KgjzE1Sxtq0">RocketSeat</a> video
+        </div>
+
+        <div class="content__switch">
+            <span class="content__span">theme</span>
+            <label class="switch">
+                <input type="checkbox" id='switch' onClick="changeCSS(0)">
+                <span class="slider round"></span>
+            </label>
+        </div>
+
+    </main>
+    <footer class='footer'>
+        <div class='footer__section footer__location'>
+            <span> Brazil</span>
+        </div>
+        <div class='footer__section footer__links'>
+            <a href="">Settings</a>
+            <a href="">Privacy</a>
+            <a href="">Terms</a>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
